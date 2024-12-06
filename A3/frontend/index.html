@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="log">
+        <label>Messages sent</label>
+        <p id="messages"></p>
+    </div>
+    <h1>Welcome to Quest</h1>
+    <div>
+        <button type="button" onclick="startGame()" id="start">Start Game</button>
+        <button type="button" onclick="A1scenario()" id="A1scenario">Start A1 Scenario</button>
+        <button type="button" onclick="scenarioOne()" id="scenarioOne">Start Rigged Game 1</button>
+        <button type="button" onclick="scenarioTwo()" id="scenarioTwo">Start Rigged Game 2</button>
+        <button type="button" onclick="scenarioThree()" id="scenarioThree">Start Rigged Game 3</button>
+
+
+    </div>
+
+    <p id="Player">Current Player:</p>
+    <p id="EventCard">Current EventCard:</p>
+    <p id="Player_1_Deck">Player 1 Deck:</p>
+    <p id="Player_2_Deck">Player 2 Deck:</p>
+    <p id="Player_3_Deck">Player 3 Deck:</p>
+    <p id="Player_4_Deck">Player 4 Deck:</p>
+    <div id="input">
+        <button id="GetEventCard" onclick="drawEventCard()" >Draw Event Card</button>
+        <button id="GetQ4Card" onclick="drawQ4()" >Q4</button>
+        <button id="GetQ3Card" onclick="drawQ3()" >Q3</button>
+        <button id="GetQ2Card" onclick="drawQ2()" >Q2</button>
+        <button id="GetPlague" onclick="drawPlague()" >Plague</button>
+        <button id="GetProsperity" onclick="drawProsperity()" >Prosperity</button>
+        <button id="GetQueen" onclick="drawQueen()" >Queen's Favour</button>
+    </div>
+    <div>
+        <input type="text" id="text">
+        <button id="Enter">Enter</button>
+    </div>
+
+    <div id="Player Shields">
+        <label>Shields</label>
+        <p id="Player_1_Shields">Player 1 Shields:</p>
+        <p id="Player_2_Shields">Player 2 Shields:</p>
+        <p id="Player_3_Shields">Player 3 Shields:</p>
+        <p id="Player_4_Shields">Player 4 Shields:</p>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
